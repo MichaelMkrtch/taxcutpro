@@ -1,6 +1,6 @@
 <section id="about" class="container my-20">
-	<h2 class="section-header">About Me</h2>
-	<p class="mt-8 w-4/5 text-pretty font-medium leading-7 tracking-wide">
+	<h2 class="section-header">About Us</h2>
+	<p class="mt-8 w-4/5 text-pretty text-lg font-medium leading-7 tracking-wide">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nesciunt nisi. Totam,
 		eligendi itaque recusandae, atque repudiandae alias consectetur delectus, sapiente at numquam
 		nemo ratione? Aperiam voluptates vel eum cumque! Illum quasi facere voluptate similique neque

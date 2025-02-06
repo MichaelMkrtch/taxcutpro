@@ -9,21 +9,23 @@
 			<p class="font-medium text-gray-500">We deliver clear financial solutions</p>
 		</div>
 
-		<section
-			class="mx-auto mt-8 flex gap-4 rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] px-7 py-6 text-lg"
-		>
-			<div class="flex basis-1/3 flex-col border-r border-[#C9C9CF] px-4">
+		<section class="mx-auto mt-8 flex rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] text-lg">
+			<div
+				class="flex basis-1/3 cursor-pointer flex-col border-r border-[#C9C9CF] px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#d4d4d9]"
+			>
 				<div class="flex items-center gap-2 text-[#009b33]">
 					<MessageSquareMore class="relative top-0.5" />
 					<h3 class="text-xl font-medium">Consulting</h3>
 				</div>
 				<p class="mt-6 text-pretty leading-7">
-					We offer tailored financial strategies and expert guidance to address our clients' diverse
+					We offer tailored financial strategies and expert guidance to address our clients' unique
 					financial needs.
 				</p>
 			</div>
 
-			<div class="flex basis-1/3 flex-col border-r border-[#C9C9CF] px-4">
+			<div
+				class=" flex basis-1/3 cursor-pointer flex-col border-r border-[#C9C9CF] px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#d4d4d9]"
+			>
 				<div class="flex items-center gap-2 text-[#009b33]">
 					<Landmark />
 					<h3 class="text-xl font-medium">Tax Preparation</h3>
@@ -34,7 +36,9 @@
 				</p>
 			</div>
 
-			<div class="flex basis-1/3 flex-col px-4">
+			<div
+				class="flex basis-1/3 cursor-pointer flex-col px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#d4d4d9]"
+			>
 				<div class="flex items-center gap-2 text-[#009b33]">
 					<ReceiptText />
 					<h3 class="text-xl font-medium">Bookkeeping</h3>
@@ -45,13 +49,5 @@
 				</p>
 			</div>
 		</section>
-
-		<!-- <p class="mt-10 w-4/5 font-medium leading-7 tracking-wide">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic soluta quae alias
-			dolorum quasi suscipit unde. Velit, facere non aliquid illum voluptatum, ea eos rerum
-			consequatur id et unde! Nesciunt, natus. Voluptates eius fugit explicabo repudiandae, soluta
-			esse corporis sapiente sequi expedita laborum? Culpa eos voluptatum, deserunt alias inventore
-			reiciendis est, rerum veniam nostrum vero, quos id ducimus accusantium.
-		</p> -->
 	</section>
 </div>

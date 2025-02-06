@@ -5,8 +5,8 @@
 
 	const navLinks = [
 		{ label: 'Services', href: '#services' },
-		{ label: 'Contact', href: '#contact' },
-		{ label: 'About', href: '#about' }
+		{ label: 'About', href: '#about' },
+		{ label: 'Contact', href: '#contact' }
 	];
 
 	function handleClick() {
@@ -22,7 +22,7 @@
 			<li class="group relative">
 				<a class="py-1.5 font-semibold" href={link.href}>{link.label}</a>
 				<span
-					class="pointer-events-none absolute bottom-0 left-0 block h-0.5 w-0 cursor-pointer bg-[#D4AF37] transition-all duration-300 group-hover:w-full"
+					class="pointer-events-none absolute -bottom-0.5 left-0 block h-0.5 w-0 cursor-pointer bg-[#D4AF37] transition-all duration-300 group-hover:w-full"
 				></span>
 			</li>
 		{/each}
@@ -40,7 +40,7 @@
 		<Moon
 			class="{darkMode
 				? 'block'
-				: 'hidden'} stroke-primary-text transition-colors duration-100 ease-in hover:cursor-pointer hover:stroke-indigo-600"
+				: 'hidden'} ml-auto stroke-primary-text transition-colors duration-100 ease-in hover:cursor-pointer hover:stroke-indigo-600"
 			size={24}
 			onclick={handleClick}
 		/>
