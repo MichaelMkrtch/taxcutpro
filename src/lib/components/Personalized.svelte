@@ -1,9 +1,9 @@
 <script>
-	import { Calculator, HandCoins, Search, UserCheck } from 'lucide-svelte';
+	import { Calculator, HandCoins, Landmark, UserCheck } from 'lucide-svelte';
 </script>
 
 <div class="bg-[#EAEAEC] py-16">
-	<section class="container flex items-center justify-center gap-10">
+	<section class="section-container flex items-center justify-center gap-10">
 		<div class="grid flex-grow basis-2/5 grid-cols-2 grid-rows-2 gap-3">
 			<div
 				class="flex items-center justify-between rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] p-3"
@@ -11,15 +11,6 @@
 				<Calculator size={36} class="basis-1/3 stroke-[#23BE5C]" />
 				<span class="basis-2/3 text-center text-lg font-medium leading-7 tracking-wide"
 					>Accurate Accounting</span
-				>
-			</div>
-
-			<div
-				class="flex items-center justify-between rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] p-3"
-			>
-				<UserCheck size={36} class="basis-1/3 stroke-[#23BE5C]" />
-				<span class="basis-2/3 text-center text-lg font-medium leading-7 tracking-wide"
-					>Tailored Solutions</span
 				>
 			</div>
 
@@ -35,15 +26,24 @@
 			<div
 				class="flex items-center justify-between rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] p-3"
 			>
-				<Search size={36} class="basis-1/3 stroke-[#23BE5C]" />
+				<UserCheck size={36} class="basis-1/3 stroke-[#23BE5C]" />
 				<span class="basis-2/3 text-center text-lg font-medium leading-7 tracking-wide"
-					>Individual Insights</span
+					>Tailored Solutions</span
+				>
+			</div>
+
+			<div
+				class="flex items-center justify-between rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] p-3"
+			>
+				<Landmark size={36} class="basis-1/3 stroke-[#23BE5C]" />
+				<span class="basis-2/3 text-center text-lg font-medium leading-7 tracking-wide"
+					>Strategic Structuring</span
 				>
 			</div>
 		</div>
 
 		<div class="basis-3/5">
-			<h2 class="section-header">Personalized Accounting</h2>
+			<h2 class="section-header">Individualized Approach</h2>
 			<p class="mt-8 w-4/5 text-pretty text-lg font-medium leading-7 tracking-wide">
 				Our accounting services are built on a commitment to truly understanding your unique
 				financial requirements. We do more than just process numbers—we offer personalized insights,

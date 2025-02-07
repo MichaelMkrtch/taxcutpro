@@ -1,4 +1,4 @@
-<section id="about" class="container my-20">
+<section id="about" class="section-container my-20">
 	<h2 class="section-header">About Us</h2>
 	<p class="mt-8 w-4/5 text-pretty text-lg font-medium leading-7 tracking-wide">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nesciunt nisi. Totam,

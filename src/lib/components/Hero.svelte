@@ -3,27 +3,23 @@
 </script>
 
 <div
-	class="before:absolute before:left-0 before:top-[-600px] before:-z-10 before:h-[950px] before:w-full before:skew-y-[-8deg] before:bg-[#4ade80]"
+	class="before:absolute before:left-0 before:top-[-350px] before:-z-10 before:h-[800px] before:w-full before:skew-y-[-12deg] before:bg-[#1C9B4B]"
 >
-	<section class="container mt-44 w-full">
-		<div class="flex items-center justify-between">
-			<div class="w-3/5">
-				<h2 class="text-[64px] font-semibold leading-[1.35] tracking-tighter">
-					Personal Accounting,<br />Professional Results
+	<section class="section-container mt-20 w-full">
+		<div class="flex items-start justify-between">
+			<div class="mt-12 w-3/5">
+				<h2 class="text-4xl font-semibold leading-[1.35] tracking-tight text-white">
+					We Deliver Clear Financial Solutions.
 				</h2>
 
-				<p class="mt-8 text-balance text-lg font-medium leading-7 tracking-wide">
+				<p class="mt-20 text-balance text-lg font-medium leading-7 tracking-wide text-white">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id suscipit minus facilis
-					tenetur reiciendis aliquam aut qui asperiores ducimus. Saepe nesciunt quasi mollitia?
-					Explicabo enim harum corporis inventore iste. Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Hic id suscipit minus facilis tenetur reiciendis aliquam aut qui
-					asperiores ducimus. Saepe nesciunt quasi mollitia? Explicabo enim harum corporis inventore
-					iste.
+					tenetur reiciendis aliquam aut qui asperiores ducimus. Saepe nesciunt quasi mollitia.
 				</p>
 
 				<div class="mt-8 flex w-full items-center gap-4 font-medium">
 					<div
-						class="group/schedule flex items-center justify-center gap-1 rounded-full bg-[#23BE5C] py-3 pl-4 pr-3 text-white transition-colors duration-100 ease-in hover:bg-[#1C9B4B]"
+						class="group/schedule flex items-center justify-center gap-1 rounded-full bg-[#187739] py-3 pl-4 pr-3 text-white shadow-lg transition-colors duration-100 ease-in hover:bg-[#156631]"
 					>
 						<button>Schedule free consultation</button>
 						<ArrowRight
