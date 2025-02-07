@@ -13,7 +13,7 @@
 			<div
 				class="flex basis-1/3 cursor-pointer flex-col border-r border-[#C9C9CF] px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#d4d4d9]"
 			>
-				<div class="flex items-center gap-2 text-[#009b33]">
+				<div class="flex items-center gap-2 text-[#23BE5C]">
 					<MessageSquareMore class="relative top-0.5" />
 					<h3 class="text-xl font-medium">Consulting</h3>
 				</div>
@@ -26,7 +26,7 @@
 			<div
 				class=" flex basis-1/3 cursor-pointer flex-col border-r border-[#C9C9CF] px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#d4d4d9]"
 			>
-				<div class="flex items-center gap-2 text-[#009b33]">
+				<div class="flex items-center gap-2 text-[#23BE5C]">
 					<Landmark />
 					<h3 class="text-xl font-medium">Tax Preparation</h3>
 				</div>
@@ -39,7 +39,7 @@
 			<div
 				class="flex basis-1/3 cursor-pointer flex-col px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#d4d4d9]"
 			>
-				<div class="flex items-center gap-2 text-[#009b33]">
+				<div class="flex items-center gap-2 text-[#23BE5C]">
 					<ReceiptText />
 					<h3 class="text-xl font-medium">Bookkeeping</h3>
 				</div>

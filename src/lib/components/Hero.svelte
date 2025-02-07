@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="before:animated-mesh before:absolute before:left-0 before:top-[-600px] before:-z-10 before:h-[950px] before:w-full before:skew-y-[-10deg]"
+	class="before:absolute before:left-0 before:top-[-600px] before:-z-10 before:h-[950px] before:w-full before:skew-y-[-8deg] before:bg-[#4ade80]"
 >
 	<section class="container mt-44 w-full">
 		<div class="flex items-center justify-between">
@@ -23,7 +23,7 @@
 
 				<div class="mt-8 flex w-full items-center gap-4 font-medium">
 					<div
-						class="group/schedule flex items-center justify-center gap-1 rounded-full bg-[#009b33] py-3 pl-4 pr-3 text-white transition-colors duration-100 ease-in hover:bg-[#00831c]"
+						class="group/schedule flex items-center justify-center gap-1 rounded-full bg-[#23BE5C] py-3 pl-4 pr-3 text-white transition-colors duration-100 ease-in hover:bg-[#1C9B4B]"
 					>
 						<button>Schedule free consultation</button>
 						<ArrowRight
@@ -31,15 +31,6 @@
 							class="transition-transform duration-100 ease-in group-hover/schedule:translate-x-1"
 						/>
 					</div>
-
-					<!-- <div class="group/services flex items-center gap-1 font-semibold">
-						<a href="/" class="text-indigo-700">Services</a>
-						<ArrowRight
-							size={22}
-							class="stroke-indigo-700 transition-transform duration-100 ease-in group-hover/services:translate-x-1"
-							strokeWidth={2.25}
-						/>
-					</div> -->
 				</div>
 			</div>
 

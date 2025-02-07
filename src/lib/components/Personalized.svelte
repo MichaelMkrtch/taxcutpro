@@ -8,7 +8,7 @@
 			<div
 				class="flex items-center justify-between rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] p-3"
 			>
-				<Calculator size={36} class="basis-1/3 stroke-[#009b33]" />
+				<Calculator size={36} class="basis-1/3 stroke-[#23BE5C]" />
 				<span class="basis-2/3 text-center text-lg font-medium leading-7 tracking-wide"
 					>Accurate Accounting</span
 				>
@@ -17,7 +17,7 @@
 			<div
 				class="flex items-center justify-between rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] p-3"
 			>
-				<UserCheck size={36} class="basis-1/3 stroke-[#009b33]" />
+				<UserCheck size={36} class="basis-1/3 stroke-[#23BE5C]" />
 				<span class="basis-2/3 text-center text-lg font-medium leading-7 tracking-wide"
 					>Tailored Solutions</span
 				>
@@ -26,7 +26,7 @@
 			<div
 				class="flex items-center justify-between rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] p-3"
 			>
-				<HandCoins size={36} class="basis-1/3 stroke-[#009b33]" />
+				<HandCoins size={36} class="basis-1/3 stroke-[#23BE5C]" />
 				<span class="basis-2/3 text-center text-lg font-medium leading-7 tracking-wide"
 					>Maximum Savings</span
 				>
@@ -35,7 +35,7 @@
 			<div
 				class="flex items-center justify-between rounded-lg border border-[#C9C9CF] bg-[#DFDFE2] p-3"
 			>
-				<Search size={36} class="basis-1/3 stroke-[#009b33]" />
+				<Search size={36} class="basis-1/3 stroke-[#23BE5C]" />
 				<span class="basis-2/3 text-center text-lg font-medium leading-7 tracking-wide"
 					>Individual Insights</span
 				>
