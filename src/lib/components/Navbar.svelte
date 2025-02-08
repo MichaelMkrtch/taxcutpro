@@ -17,8 +17,8 @@
 	}
 </script>
 
-<nav class="mx-auto my-8 flex max-w-6xl items-center justify-between text-white">
-	<a href="/" class="basis-1/5 text-[26px] font-bold tracking-wide">TaxCutPro</a>
+<nav class="mx-auto my-8 flex max-w-6xl items-center justify-between text-neutral-100">
+	<h1 class="basis-1/5 text-[26px] font-bold tracking-wide">TaxCutPro</h1>
 
 	<ul class="flex basis-3/5 justify-center gap-8 tracking-wide">
 		{#each navLinks as link}
@@ -30,15 +30,21 @@
 						sideOffset={16}
 						classes="bg-soft-white text-black"
 					>
-						<a class="py-1.5 font-semibold" href={link.href}>{link.label}</a>
+						<a
+							class="py-1.5 font-semibold transition-colors duration-300 ease-out hover:text-neutral-300"
+							href={link.href}>{link.label}</a
+						>
 						<span
-							class="pointer-events-none absolute -bottom-0.5 left-0 block h-0.5 w-0 cursor-pointer bg-[#353FAC] transition-all duration-300 group-hover:w-full"
+							class="pointer-events-none absolute -bottom-0.5 left-0 block h-0.5 w-0 cursor-pointer bg-[#DEA73F] transition-all duration-300 group-hover:w-full"
 						></span>
 					</Tooltip>
 				{:else}
-					<a class="py-1.5 font-semibold" href={link.href}>{link.label}</a>
+					<a
+						class="py-1.5 font-semibold transition-colors duration-300 ease-out hover:text-neutral-300"
+						href={link.href}>{link.label}</a
+					>
 					<span
-						class="pointer-events-none absolute -bottom-0.5 left-0 block h-0.5 w-0 cursor-pointer bg-[#353FAC] transition-all duration-300 group-hover:w-full"
+						class="pointer-events-none absolute -bottom-0.5 left-0 block h-0.5 w-0 cursor-pointer bg-[#DEA73F] transition-all duration-300 group-hover:w-full"
 					></span>
 				{/if}
 			</li>
@@ -49,7 +55,7 @@
 		<SunMedium
 			class="{darkMode
 				? 'hidden'
-				: 'block'} ml-auto stroke-white transition-colors duration-100 ease-in hover:cursor-pointer hover:stroke-amber-300"
+				: 'block'} ml-auto stroke-white transition-colors duration-100 ease-in hover:cursor-pointer hover:stroke-[#DEA73F]"
 			size={24}
 			onclick={() => (darkMode = !darkMode)}
 		/>

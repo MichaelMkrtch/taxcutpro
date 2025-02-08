@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="before:absolute before:left-0 before:top-[-350px] before:-z-10 before:h-[800px] before:w-full before:skew-y-[-12deg] before:bg-[#1C9B4B]"
+	class="before:absolute before:left-0 before:top-[-350px] before:-z-10 before:h-[800px] before:w-full before:skew-y-[-12deg] before:bg-[#127453]"
 >
 	<section class="section-container mt-20 w-full">
 		<div class="flex items-start justify-between">
@@ -19,7 +19,7 @@
 
 				<div class="mt-8 flex w-full items-center gap-4 font-medium">
 					<div
-						class="group/schedule flex items-center justify-center gap-1 rounded-full bg-[#187739] py-3 pl-4 pr-3 text-white shadow-lg transition-colors duration-100 ease-in hover:bg-[#156631]"
+						class="group/schedule flex items-center justify-center gap-1 rounded-full border-2 border-[#DC9F2E] bg-[#DEA73F] py-3 pl-4 pr-3 font-semibold text-neutral-100 shadow-lg transition-colors duration-100 ease-in hover:cursor-pointer hover:bg-transparent"
 					>
 						<button>Schedule free consultation</button>
 						<ArrowRight
