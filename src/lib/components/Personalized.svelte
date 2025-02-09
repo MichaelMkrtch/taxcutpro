@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="mt-9 rounded-lg bg-[#EDEBE8] px-7 py-9 md:mt-16 md:rounded-none md:bg-transparent md:px-0 md:py-16"
+	class="mt-9 rounded-lg bg-[#EDEBE8] px-7 py-9 dark:bg-[#1a1a1a] md:mt-16 md:rounded-none md:bg-transparent md:px-0 md:py-16"
 >
 	<section
 		class="section-container flex flex-col-reverse items-center justify-center gap-10 md:flex-row"
