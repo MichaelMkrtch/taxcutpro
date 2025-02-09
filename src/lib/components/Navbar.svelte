@@ -9,17 +9,14 @@
 
 	// Sets dark mode on initial load
 	onMount(() => {
-		const storedTheme = localStorage.getItem('theme');
 		const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-		if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+		if (prefersDark) {
 			isDarkMode.set(true);
 			document.documentElement.classList.add('dark');
-			localStorage.setItem('theme', 'dark');
 		} else {
 			isDarkMode.set(false);
 			document.documentElement.classList.remove('dark');
-			localStorage.setItem('theme', 'light');
 		}
 	});
 
@@ -29,10 +26,10 @@
 			const next = !current;
 			if (next) {
 				document.documentElement.classList.add('dark');
-				localStorage.setItem('theme', 'dark');
+				// localStorage.setItem('theme', 'dark');
 			} else {
 				document.documentElement.classList.remove('dark');
-				localStorage.setItem('theme', 'light');
+				// localStorage.setItem('theme', 'light');
 			}
 			return next;
 		});
@@ -53,10 +50,10 @@
 	<div class="relative">
 		<h1 class="basis-1/5 text-[22px] font-bold tracking-wide md:text-[26px]">TaxCutPro</h1>
 		<span
-			class="pointer-events-none absolute -right-1 bottom-0.5 block h-0.5 w-[55px] -rotate-[4deg] cursor-pointer rounded-full bg-[#DEA73F] transition-all duration-300"
+			class="pointer-events-none absolute -right-2 bottom-0.5 block h-0.5 w-[55px] -rotate-[4deg] cursor-pointer rounded-full bg-[#DEA73F] transition-all duration-300 md:-right-1"
 		></span>
 		<span
-			class="pointer-events-none absolute -bottom-0.5 -right-1 block h-0.5 w-[55px] -rotate-[4deg] cursor-pointer rounded-full bg-[#DEA73F] transition-all duration-300"
+			class="pointer-events-none absolute -bottom-0.5 -right-2 block h-0.5 w-[55px] -rotate-[4deg] cursor-pointer rounded-full bg-[#DEA73F] transition-all duration-300 md:-right-1"
 		></span>
 	</div>
 
