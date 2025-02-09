@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { About, Hero, Navbar, Personalized, Services } from '$lib';
 </script>
 

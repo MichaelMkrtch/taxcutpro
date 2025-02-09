@@ -1,6 +1,6 @@
-<div class="mt-16 bg-[#EDEBE8] py-16">
+<div class="mt-16 bg-[#EDEBE8] py-16 dark:bg-[#1a1a1a]">
 	<section id="about" class="section-container">
-		<h2 class="section-header text-[#004466]">About Us</h2>
+		<h2 class="section-header text-[#4e32b2]">About Us</h2>
 		<p class="mt-8 w-4/5 text-pretty text-lg font-medium leading-7 tracking-wide">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nesciunt nisi. Totam,
 			eligendi itaque recusandae, atque repudiandae alias consectetur delectus, sapiente at numquam

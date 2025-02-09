@@ -14,7 +14,8 @@ const config: Config = {
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans],
-				jakarta: ['Plus Jakarta Sans', 'sans-serif']
+				jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+				kurale: ['Kurale', 'Plus Jakarta Sans', 'sans-serif']
 			},
 			keyframes: {
 				'accordion-down': {

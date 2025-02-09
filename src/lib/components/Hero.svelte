@@ -7,12 +7,12 @@
 >
 	<section class="section-container mt-20 w-full">
 		<div class="flex items-start justify-between">
-			<div class="mt-12 w-3/5">
-				<h2 class="text-4xl font-semibold leading-[1.35] tracking-tight text-white">
+			<div class="w-3/5">
+				<h2 class="font-kurale text-5xl font-semibold leading-[1.25] text-neutral-100">
 					We Deliver Clear Financial Solutions.
 				</h2>
 
-				<p class="mt-20 text-balance text-lg font-medium leading-7 tracking-wide text-white">
+				<p class="mt-8 text-balance text-lg font-medium leading-7 tracking-wide text-neutral-100">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id suscipit minus facilis
 					tenetur reiciendis aliquam aut qui asperiores ducimus. Saepe nesciunt quasi mollitia.
 				</p>
