@@ -47,9 +47,11 @@
 	];
 </script>
 
-<nav class="mx-auto my-8 flex max-w-6xl items-center justify-between text-neutral-100">
+<nav
+	class="mx-auto my-4 flex w-full items-center justify-between text-neutral-100 md:my-8 md:max-w-6xl"
+>
 	<div class="relative">
-		<h1 class="basis-1/5 text-[26px] font-bold tracking-wide">TaxCutPro</h1>
+		<h1 class="basis-1/5 text-[22px] font-bold tracking-wide md:text-[26px]">TaxCutPro</h1>
 		<span
 			class="pointer-events-none absolute -right-1 bottom-0.5 block h-0.5 w-[55px] -rotate-[4deg] cursor-pointer rounded-full bg-[#DEA73F] transition-all duration-300"
 		></span>
@@ -58,7 +60,7 @@
 		></span>
 	</div>
 
-	<ul class="flex basis-3/5 justify-center gap-8 tracking-wide">
+	<ul class="hidden basis-3/5 justify-center gap-8 tracking-wide md:flex">
 		{#each navLinks as link}
 			<li class="group relative">
 				{#if link.label === 'Contact'}

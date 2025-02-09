@@ -2,13 +2,13 @@
 	import { Landmark, MessageSquareMore, ReceiptText } from 'lucide-svelte';
 </script>
 
-<div class="mt-9 py-16">
+<div class="mt-9 py-9 md:block md:py-16">
 	<section id="services" class="section-container">
 		<section
-			class="mx-auto mt-8 flex rounded-lg border border-[#C9C9CF] bg-[#EDEBE8] text-lg dark:border-white/10 dark:bg-[#1a1a1a]"
+			class="mx-auto mt-8 grid grid-cols-1 grid-rows-3 rounded-lg border border-[#C9C9CF] bg-[#EDEBE8] text-lg dark:border-white/10 dark:bg-[#1a1a1a] md:flex"
 		>
 			<div
-				class="flex basis-1/3 cursor-pointer flex-col rounded-l-lg border-r border-[#C9C9CF] px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#E4E1DD] dark:border-white/10 dark:hover:bg-[#1f1f1f]"
+				class="flex basis-1/3 cursor-pointer flex-col rounded-tl-lg border-b border-[#C9C9CF] px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#E4E1DD] dark:border-white/10 dark:hover:bg-[#1f1f1f] md:rounded-l-lg md:border-b-0 md:border-r"
 			>
 				<div class="flex items-center gap-2 text-[#127453] dark:text-[#199F72]">
 					<Landmark strokeWidth={2.2} />
@@ -21,7 +21,7 @@
 			</div>
 
 			<div
-				class="flex basis-1/3 cursor-pointer flex-col border-r border-[#C9C9CF] px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#E4E1DD] dark:border-white/10 dark:hover:bg-[#1f1f1f]"
+				class="flex basis-1/3 cursor-pointer flex-col border-b border-[#C9C9CF] px-7 py-6 transition-colors duration-100 ease-in hover:bg-[#E4E1DD] dark:border-white/10 dark:hover:bg-[#1f1f1f] md:border-b-0 md:border-r"
 			>
 				<div class="flex items-center gap-2 text-[#127453] dark:text-[#199F72]">
 					<ReceiptText strokeWidth={2.2} />

@@ -3,23 +3,25 @@
 </script>
 
 <div
-	class="before:absolute before:left-0 before:top-[-350px] before:-z-10 before:h-[800px] before:w-full before:skew-y-[-12deg] before:bg-[#127453]"
+	class="before:absolute before:left-0 before:top-[-400px] before:-z-10 before:h-[800px] before:w-full before:skew-y-[-8deg] before:bg-[#127453] md:before:top-[-350px] md:before:skew-y-[-12deg]"
 >
-	<section class="section-container mt-20 w-full">
+	<section class="section-container mt-14 w-full md:mt-20">
 		<div class="flex items-start justify-between">
-			<div class="w-3/5">
-				<h2 class="font-kurale text-5xl font-semibold leading-[1.25] text-neutral-100">
+			<div class="w-4/5 flex-grow md:w-3/5">
+				<h2 class="font-kurale text-3xl font-semibold leading-[1.25] text-neutral-100 md:text-5xl">
 					We Deliver Clear Financial Solutions.
 				</h2>
 
-				<p class="mt-8 text-balance text-lg font-medium leading-7 tracking-wide text-neutral-100">
+				<p
+					class="mt-8 text-pretty text-base font-medium tracking-wide text-neutral-100 md:text-balance md:text-lg md:leading-7"
+				>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id suscipit minus facilis
-					tenetur reiciendis aliquam aut qui asperiores ducimus. Saepe nesciunt quasi mollitia.
+					tenetur reiciendis aliquam.
 				</p>
 
 				<div class="mt-8 flex w-full items-center gap-4 font-medium">
 					<div
-						class="group/schedule flex items-center justify-center gap-1 rounded-full border-2 border-[#DC9F2E] bg-[#DEA73F] py-3 pl-4 pr-3 font-semibold text-neutral-100 shadow-lg transition-colors duration-100 ease-in hover:cursor-pointer hover:bg-transparent"
+						class="group/schedule flex items-center justify-center gap-1 rounded-full border-2 border-[#DC9F2E] bg-[#DEA73F] py-2 pl-3 pr-2 font-semibold text-neutral-100 shadow-md transition-colors duration-100 ease-in hover:cursor-pointer hover:bg-transparent md:py-3 md:pl-4 md:pr-3 md:shadow-lg"
 					>
 						<button>Schedule free consultation</button>
 						<ArrowRight
@@ -30,9 +32,9 @@
 				</div>
 			</div>
 
-			<div class="flex h-[450px] w-[300px] items-center justify-center rounded-md bg-neutral-500">
-				Portrait Image
-			</div>
+			<div
+				class="hidden items-center justify-center rounded-full bg-neutral-500 md:flex md:h-[450px] md:w-[300px] md:rounded-md"
+			></div>
 		</div>
 	</section>
 </div>
