@@ -2,7 +2,7 @@
 	import { Landmark, MessageSquareMore, ReceiptText } from 'lucide-svelte';
 </script>
 
-<div class="mt-9 py-9 md:block md:py-16">
+<div class="mt-9 pt-9 md:block md:py-16">
 	<section id="services" class="section-container">
 		<section
 			class="mx-auto mt-8 grid grid-cols-1 grid-rows-3 rounded-lg border border-[#C9C9CF] bg-[#EDEBE8] text-lg dark:border-white/10 dark:bg-[#1a1a1a] md:flex"

@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="mt-9 rounded-lg bg-[#EDEBE8] px-7 py-9 dark:bg-[#1a1a1a] md:mt-16 md:rounded-none md:bg-transparent md:px-0 md:py-16"
+	class="my-9 rounded-lg bg-[#EDEBE8] px-7 py-9 dark:bg-[#1a1a1a] md:my-10 md:rounded-none md:bg-transparent md:px-0 md:py-16 md:pb-0 md:dark:bg-transparent"
 >
 	<section
 		class="section-container flex flex-col-reverse items-center justify-center gap-10 md:flex-row"
@@ -47,7 +47,7 @@
 		</div>
 
 		<div class="basis-3/5">
-			<h2 class="section-header text-[#4e32b2]">Individualized Approach</h2>
+			<h2 class="section-header text-[#6B50CE]">Individualized Approach</h2>
 			<p class="mt-8 w-full text-pretty text-lg font-medium leading-7 tracking-wide md:w-4/5">
 				Our accounting services are built on a commitment to truly understanding your unique
 				financial requirements. We do more than just process numbers—we offer personalized insights,
