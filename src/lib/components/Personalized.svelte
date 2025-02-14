@@ -47,7 +47,7 @@
 		</div>
 
 		<div class="basis-3/5">
-			<h2 class="section-header text-[#6B50CE]">Individualized Approach</h2>
+			<h2 class="section-header text-[#127453] dark:text-[#199F72]">Individualized Approach</h2>
 			<p class="mt-8 w-full text-pretty text-lg font-medium leading-7 tracking-wide md:w-4/5">
 				Our accounting services are built on a commitment to truly understanding your unique
 				financial requirements. We do more than just process numbers—we offer personalized insights,
