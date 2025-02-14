@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="mt-24 before:absolute before:left-0 before:top-[-400px] before:-z-10 before:h-[700px] before:w-full before:skew-y-[-8deg] before:bg-[#127453] md:mt-32 md:before:top-[-350px] md:before:skew-y-[-12deg]"
+	class="mt-24 before:absolute before:left-0 before:top-[-425px] before:-z-10 before:h-[800px] before:w-full before:skew-y-[-4deg] before:bg-[#127453] md:mt-32 md:before:top-[-350px] md:before:h-[700px] md:before:skew-y-[-10deg]"
 >
 	<section class="section-container mt-14 w-full md:mt-20">
 		<div class="flex items-start justify-between">
